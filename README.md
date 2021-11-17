@@ -1,3 +1,7 @@
-# my nvim config
+# my nvim config for ubuntu
 
-install plugins with packer
+Install plugins with packer
+
+## macos
+
+please checkout the branch mac
