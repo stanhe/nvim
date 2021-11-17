@@ -11,7 +11,7 @@ runtime ./maps.vim
 source ~/.config/nvim/after/plugin/airline.rc.vim
 "接下来配置一下主题
 "主题的配置文件引一下
-source ~/.config/nvim/colors/gruvbox_material.rc.vim
+"source ~/.config/nvim/colors/gruvbox_material.rc.vim
 source ~/.config/nvim/after/plugin/defx-icons.rc.vim
 "彩虹括号
 "source ~/.config/nvim/after/plugin/rainbow.rc.vim

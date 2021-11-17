@@ -79,16 +79,6 @@ return require("packer").startup(
       --代码格式化工具，主要用于lua语法格式化
       use "mhartington/formatter.nvim"
       -- 文件搜索 预览 等
-      use {
-        "nvim-telescope/telescope.nvim",
-        requires = {
-          "nvim-lua/plenary.nvim",
-          "kyazdani42/nvim-web-devicons"
-        }
-      }
-      -- 加速文件搜索速度,如果安装失败需要到插件目录执行make命令手动编译
-      -- 用了这个插件以后，貌似更快了(感觉输入更跟手了，可能是心理作用)。但是对于我的小项目感受不是很明显
-      use {"nvim-telescope/telescope-fzf-native.nvim", run = "make"}
       --语法高亮
       use {
         "nvim-treesitter/nvim-treesitter",
