@@ -14,4 +14,4 @@ source ~/.config/nvim/after/plugin/defx-icons.rc.vim
 "彩虹括号
 source ~/.config/nvim/after/plugin/rainbow.rc.vim
 
-
+command! Sthp lua require 'sth.print'.out()
