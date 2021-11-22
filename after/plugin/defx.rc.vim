@@ -106,4 +106,13 @@ call defx#custom#column('git', 'indicators', {
   \ 'Deleted'   : '✖',
   \ 'Unknown'   : '?'
   \ })
-
+call defx#custom#option('_', {
+			\ 'columns': 'icons:indent:filename:size',
+            \ 'winwidth': 30,
+            \ 'split': 'vertical',
+            \ 'direction': 'topleft',
+            \ 'show_ignored_files': 1,
+            \ 'buffer_name': '',
+            \ 'toggle': 1,
+            \ 'resume': 1
+            \ })
